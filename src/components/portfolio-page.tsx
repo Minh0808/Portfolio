@@ -340,22 +340,22 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
         },
         stack: {
             eyebrow: 'Tech Stack',
-            title: 'Modern frontend, dependable backend, and delivery tooling',
+            title: 'Full-stack technologies for product delivery',
             description:
-                'A stack optimized for maintainable product delivery, strong developer experience, and operational clarity from UI to infrastructure.',
+                'Production technologies selected to ensure performance, maintainability, and development speed. From frontend to backend and infrastructure.',
             techStack: [
-                { name: 'React', detail: 'Responsive interface systems' },
-                { name: 'Next.js', detail: 'App Router and SSR workflows' },
-                { name: 'Node.js', detail: 'API orchestration and services' },
-                { name: 'NestJS', detail: 'Structured backend architecture' },
-                { name: 'MongoDB', detail: 'Document modeling and indexing' },
-                { name: 'Postgres', detail: 'Relational data design' },
-                { name: 'Redis', detail: 'Caching and queue acceleration' },
-                { name: 'Docker', detail: 'Portable local and CI environments' },
-                { name: 'Git', detail: 'Versioning and team delivery' },
-                { name: 'Linux', detail: 'Deployment and server operations' },
-                { name: 'Prisma', detail: 'Type-safe data access' },
-                { name: 'Tailwind', detail: 'Systematic design implementation' },
+                { name: 'React', detail: 'Component-driven UX development' },
+                { name: 'Next.js', detail: 'Full-stack framework with SSR/SSG' },
+                { name: 'Node.js', detail: 'Server runtime and API services' },
+                { name: 'NestJS', detail: 'Enterprise backend architecture' },
+                { name: 'MongoDB', detail: 'NoSQL document database' },
+                { name: 'Redis', detail: 'In-memory caching and sessions' },
+                { name: 'Docker', detail: 'Containerization and deployment' },
+                { name: 'TypeScript', detail: 'Type-safe JavaScript development' },
+                { name: 'Tailwind', detail: 'Utility-first CSS framework' },
+                { name: 'Git', detail: 'Version control and collaboration' },
+                { name: 'Linux', detail: 'Server and deployment operations' },
+                { name: 'Prisma', detail: 'Database ORM and query builder' },
             ],
         },
         projectsSection: {
@@ -373,8 +373,8 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
                     overview:
                         'CRM delivery focused on dashboard visibility, customer workflows, reporting surfaces, and day-to-day operational clarity.',
                     preview: ['Dashboard', 'Customer', 'Workflow', 'Report'],
-                    tech: ['React', 'Node.js', 'MongoDB', 'Docker'],
-                    architecture: ['Frontend', 'REST API', 'NodeJS', 'MongoDB', 'Redis'],
+                    tech: ['NextJS', 'NodeJS', 'MongoDB', 'Redux', 'Redis', 'Docker', 'Tailwind', 'antd'],
+                    architecture: ['Frontend (Next.js)', 'REST API', 'Backend (Node.js)', 'Database(MongoDB)'],
                     features: [
                         'Dashboard visibility',
                         'Customer workflow',
@@ -402,8 +402,8 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
                     overview:
                         'ERP product work spanning planning, task execution, project tracking, and operational statistics in a unified workspace.',
                     preview: ['Project Dashboard', 'Kanban', 'Task', 'Timeline', 'Statistics'],
-                    tech: ['Next.js', 'NestJS', 'Postgres', 'Redis'],
-                    architecture: ['Frontend', 'REST API', 'NestJS', 'Postgres', 'Redis'],
+                    tech: ['NextJS', 'NodeJS', 'MongoDB', 'Redux', 'Redis', 'Docker', 'Tailwind', 'antd'],
+                    architecture: ['Frontend (Next.js)', 'REST API', 'Backend (Node.js)', 'Database(MongoDB)'],
                     features: [
                         'Task planning',
                         'Kanban flow',
@@ -431,8 +431,8 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
                     overview:
                         'HRM workspace experience centered on attendance, leave requests, calendars, and schedule coordination for internal teams.',
                     preview: ['Attendance', 'Calendar', 'Leave', 'Worksheet', 'Setting'],
-                    tech: ['React', 'Node.js', 'MongoDB', 'Docker'],
-                    architecture: ['Frontend', 'REST API', 'NodeJS', 'MongoDB', 'Queue'],
+                    tech: ['NextJS', 'NodeJS', 'MongoDB', 'Redux', 'Redis', 'Docker', 'Tailwind', 'antd'],
+                    architecture: ['Frontend (Next.js)', 'REST API', 'Backend (Node.js)', 'Database(MongoDB)', 'Queue'],
                     features: [
                         'Attendance tracking',
                         'Leave approval',
@@ -460,8 +460,14 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
                     overview:
                         'E-commerce feature delivery across product discovery, cart flows, checkout, and order handling during work at TD Solution.',
                     preview: ['Home', 'Product', 'Cart', 'Checkout', 'Order'],
-                    tech: ['React', 'Node.js', 'MongoDB', 'Redis'],
-                    architecture: ['Frontend', 'REST API', 'NodeJS', 'MongoDB', 'Redis'],
+                    tech: ['NextJS', 'NestJS', 'MongoDB', 'Redis', 'Docker', 'Tailwind', 'antd'],
+                    architecture: [
+                        'Frontend (Next.js)',
+                        'REST API',
+                        'Backend (NestJS)',
+                        'Database(MongoDB)',
+                        'Cache(Redis)',
+                    ],
                     features: [
                         'Catalog browsing',
                         'Product detail',
@@ -656,22 +662,22 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
         },
         stack: {
             eyebrow: 'Công nghệ',
-            title: 'Frontend hiện đại, backend ổn định và công cụ triển khai',
+            title: 'Công nghệ full-stack cho phát triển sản phẩm',
             description:
-                'Stack được tối ưu cho khả năng bảo trì, trải nghiệm phát triển tốt và vận hành rõ ràng từ giao diện đến hạ tầng.',
+                'Công nghệ sản xuất được lựa chọn để đảm bảo hiệu năng, khả năng bảo trì và tốc độ phát triển. Từ frontend đến backend và hạ tầng.',
             techStack: [
-                { name: 'React', detail: 'Hệ thống giao diện phản hồi tốt' },
-                { name: 'Next.js', detail: 'Quy trình App Router và SSR' },
-                { name: 'Node.js', detail: 'Điều phối API và dịch vụ' },
-                { name: 'NestJS', detail: 'Kiến trúc backend có tổ chức' },
-                { name: 'MongoDB', detail: 'Mô hình tài liệu và tối ưu chỉ mục' },
-                { name: 'Postgres', detail: 'Thiết kế dữ liệu quan hệ' },
-                { name: 'Redis', detail: 'Tăng tốc cache và hàng đợi' },
-                { name: 'Docker', detail: 'Môi trường local và CI linh hoạt' },
-                { name: 'Git', detail: 'Quản lý phiên bản và phối hợp nhóm' },
-                { name: 'Linux', detail: 'Triển khai và vận hành máy chủ' },
-                { name: 'Prisma', detail: 'Truy cập dữ liệu an toàn kiểu' },
-                { name: 'Tailwind', detail: 'Triển khai giao diện có hệ thống' },
+                { name: 'React', detail: 'Phát triển giao diện thành phần' },
+                { name: 'Next.js', detail: 'Framework full-stack với SSR/SSG' },
+                { name: 'Node.js', detail: 'Runtime server và API services' },
+                { name: 'NestJS', detail: 'Kiến trúc backend doanh nghiệp' },
+                { name: 'MongoDB', detail: 'Cơ sở dữ liệu NoSQL' },
+                { name: 'Redis', detail: 'Cache và quản lý phiên' },
+                { name: 'Docker', detail: 'Containerization và triển khai' },
+                { name: 'TypeScript', detail: 'Phát triển JavaScript an toàn kiểu' },
+                { name: 'Tailwind', detail: 'Framework CSS utility-first' },
+                { name: 'Git', detail: 'Quản lý phiên bản và cộng tác' },
+                { name: 'Linux', detail: 'Vận hành máy chủ và triển khai' },
+                { name: 'Prisma', detail: 'ORM và truy vấn cơ sở dữ liệu' },
             ],
         },
         projectsSection: {
@@ -1091,13 +1097,7 @@ export function PortfolioPage() {
     const [locale, setLocale] = useState<Locale>('en');
     const [selectedProjectId, setSelectedProjectId] = useState<ProjectId | null>(null);
     const [developerMode, setDeveloperMode] = useState(false);
-    const [supportsAmbientMotion, setSupportsAmbientMotion] = useState(() => {
-        if (typeof window === 'undefined') {
-            return false;
-        }
-
-        return window.matchMedia('(min-width: 1024px) and (pointer: fine)').matches;
-    });
+    const [supportsAmbientMotion, setSupportsAmbientMotion] = useState(false);
     const sequenceRef = useRef<string[]>([]);
     const reduceMotion = useReducedMotion();
     const allowAmbientMotion = supportsAmbientMotion && !reduceMotion;
@@ -1158,6 +1158,11 @@ export function PortfolioPage() {
 
     useEffect(() => {
         const ambientQuery = window.matchMedia('(min-width: 1024px) and (pointer: fine)');
+
+        // Defer setState to avoid cascading renders
+        queueMicrotask(() => {
+            setSupportsAmbientMotion(ambientQuery.matches);
+        });
 
         const onAmbientMotionChange = (event: MediaQueryListEvent) => {
             setSupportsAmbientMotion(event.matches);
@@ -1286,7 +1291,7 @@ export function PortfolioPage() {
             <main className="relative z-10 mx-auto flex w-full max-w-7xl flex-col px-6 pb-24 sm:px-8 lg:px-10">
                 <section
                     id="home"
-                    className="grid min-h-[calc(100vh-84px)] items-center gap-16 py-20 lg:grid-cols-[1.08fr_0.92fr] lg:py-16"
+                    className="grid min-h-[calc(100vh-84px)] mt-5 items-center gap-16 py-20 lg:grid-cols-[1.08fr_0.92fr] lg:py-16"
                 >
                     <motion.div {...reveal(0)} className="max-w-2xl space-y-8">
                         <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-zinc-300">
