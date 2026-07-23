@@ -310,7 +310,7 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
             eyebrow: 'About',
             title: 'Full stack delivery across CRM, ERP, HRM, and commerce systems',
             description:
-                'Building scalable web applications with React, Next.js, Node.js, and modern backend technologies, backed by 2+ years of product delivery across CRM, ERP, HRM, and E-Commerce systems.',
+                'Building scalable web applications with React, Next.js, Node.js, and modern backend technologies, backed by 3 years of product delivery across CRM, ERP, HRM, and E-Commerce systems.',
             expertiseLabel: 'Delivery Areas',
             expertise: [
                 'CRM',
@@ -501,7 +501,7 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
             stats: [
                 {
                     label: 'Experience',
-                    value: '2+',
+                    value: '3',
                     detail: 'Years of product delivery across frontend and backend work',
                 },
                 { label: 'Domains', value: '4', detail: 'CRM, ERP, HRM, and E-Commerce systems' },
@@ -823,7 +823,7 @@ const portfolioContent: Record<Locale, PortfolioContent> = {
             stats: [
                 {
                     label: 'Kinh nghiệm',
-                    value: '2+',
+                    value: '3',
                     detail: 'Năm tham gia phát triển sản phẩm ở cả frontend và backend',
                 },
                 { label: 'Domain', value: '4', detail: 'CRM, ERP, HRM, và Thương mại điện tử' },
